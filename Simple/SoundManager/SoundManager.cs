@@ -5,9 +5,9 @@ namespace Simple
     public enum SoundType { Example }
 
     [DefaultExecutionOrder(-2)]
-    public class SoundSystem : MonoBehaviour
+    public class SoundManager : MonoBehaviour
     {
-        public static SoundSystem Instance { get; private set; }
+        public static SoundManager Instance { get; private set; }
 
         public bool On = true;
         public float MultiplayThrehold = 0.1f;
